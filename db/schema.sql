@@ -1,4 +1,0 @@
--- post table --
--- user name
--- date
---
