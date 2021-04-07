@@ -9,6 +9,18 @@ app.use(express.static(path.join(__dirname, '../public')));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
+// Routes
+
+// ADMIN
+
+// /admin/life/posts (edit, delete, create)\
+// this will have to be a separate service
+
+// Public
+
+// /life/#post
+// display one post
+
 const port = 3000;
 app.listen(port, () => {
 	console.log(`Server connected at http://localhost:${port}`);
